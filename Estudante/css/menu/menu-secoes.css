@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+#menu #secoes {
+    position: absolute;
+    width: 100%;
+    height: 55%;
+    /*background-color: #F5EEEE;*/
+}
+
+#menu #secoes button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 40px;
+
+    color: #F5EEEE;
+    
+    width: 100%;
+    height: 20%;
+    background-color: #41A35A;
+    border: none;
+    color: F5EEEE;
+    cursor: pointer;
+
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 3px;
+    box-shadow: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.5);
+    
+
+}
+
+#menu #secoes button svg{
+    position: relative;
+    left: 15px;
+}
+
+.botao{
+    margin-left: 40px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu #secoes #curriculo #seta {
+    position: relative;
+    right: 10px;
+    left: 90px;
+}
+
+#menu #secoes #meusDados #seta {
+    position: relative;
+    right: 10px;
+    left: 58px;
+}
+
+#menu #secoes #vagas #seta{
+    position: relative;
+    right: 10px;
+    left: 113px;;
+}
+
+#menu #secoes #guia #seta{
+    position: relative;
+    right: 10px;
+    left: 130px;
+}
+
+#menu #secoes #notificacoes #seta{
+    position: relative;
+    right: 10px;
+    left: 56px;
+}
+
+
